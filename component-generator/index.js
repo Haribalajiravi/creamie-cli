@@ -1,5 +1,5 @@
 const fs = require('fs');
-const Utils = require('./../../utils/Utils');
+const Utils = require('./../utils/Utils');
 const Js = require('./component/component-js');
 const Html = require('./component/component-html');
 const Css = require('./component/component-css');

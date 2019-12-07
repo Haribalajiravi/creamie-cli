@@ -29,8 +29,14 @@ const projectGenerator = (name) => {
     console.log(FgGreen, `Started generating...`);
     console.log(FgBlue, '');
 
-    copy('./creamie-project', './');
+    copy('./project-generator/creamie-project', './');
 
+    fs.renameSync(`creamie-project/`, `${name}/`, (err) => {
+        if (err) {
+            console.error(FgRed, err);
+        }
+        console.log(FgGreen, `Project Generated!`);
+    });
     /**
      * Creating default package.json with default settings and dependencies
      */

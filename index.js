@@ -17,6 +17,11 @@ if(action) {
             project(name); break;
         case 'component' : 
             component(name, option); break;
+        case '-v':
+        case '--version':
+        case 'version':
+            console.log(`creamie-cli v (${require('./package.json').version})`);
+            break;
         case 'help' :
             help(); break;
         default:
