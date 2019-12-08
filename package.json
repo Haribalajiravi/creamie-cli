@@ -19,7 +19,7 @@
         "binding"
     ],
     "bin": {
-        "creamie": "creamie-cli/index.js"
+        "creamie": "index.js"
     },
     "author": "Haribalaji R (haribalajiravi@gmail.com)",
     "license": "MIT",
