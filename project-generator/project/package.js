@@ -7,6 +7,9 @@ var devPackage = {
         development: "webpack-dev-server",
         production: "webpack-dev-server --mode production"
     },
+    dependencies: {
+        creamie: "latest"
+    },
     devDependencies: {}
 }
 

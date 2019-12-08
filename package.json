@@ -1,6 +1,6 @@
 {
     "name": "creamie-cli",
-    "version": "1.2.0",
+    "version": "0.0.0",
     "description": "A Javascript Framework with Web Component Life Cycles, Bindings, Routing and Image rendering etc...",
     "main": "index.js",
     "scripts": {
@@ -23,8 +23,8 @@
     },
     "author": "Haribalaji R (haribalajiravi@gmail.com)",
     "license": "MIT",
-    "dependencies": {
-        "node-watch": "^0.6.3",
-        "rimraf": "^3.0.0"
+    "dependencies": {},
+    "devDependencies": {
+        "node-watch": "^0.6.3"
     }
 }
