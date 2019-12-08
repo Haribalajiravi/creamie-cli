@@ -13,6 +13,7 @@ var devPackage = {
     devDependencies: {}
 }
 
+devPackage.devDependencies['creamie-watcher'] = 'latest';
 devPackage.devDependencies['@babel/core'] = '^7.6.4';
 devPackage.devDependencies['@babel/preset-env'] = '^7.6.3';
 devPackage.devDependencies['babel-loader'] = '^8.0.6';

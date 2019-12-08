@@ -21,7 +21,7 @@ const projectGenerator = (name) => {
         `        -----------------------
                  CREAMIE
          -----------------------
-        🔥 A JavaScript Framework 🔥`;
+        🔥  A JavaScript Framework 🔥`;
     console.log(title);
     console.log(`\nCreamie started creating '${name}' project..\n`);
 
@@ -29,7 +29,7 @@ const projectGenerator = (name) => {
     console.log(FgGreen, `Started generating...`);
     console.log(FgBlue, '');
 
-    copy('./project-generator/creamie-project', './');
+    copy(`${__dirname}/creamie-project`, './');
 
     fs.renameSync(`creamie-project/`, `${name}/`, (err) => {
         if (err) {

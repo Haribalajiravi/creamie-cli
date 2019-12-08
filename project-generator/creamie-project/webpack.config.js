@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const watch = require('creamie-cli/watcher/watch');
+const watch = require('creamie-watcher');
 
 module.exports = {
     module: {
