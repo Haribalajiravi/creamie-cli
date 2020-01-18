@@ -3,12 +3,13 @@ var devPackage = {
     version: "0.0.0",
     private: true,
     scripts: {
-        build: "webpack",
+        build: "webpack --mode=development",
         development: "webpack-dev-server",
-        production: "webpack-dev-server --mode production"
+        start: "webpack --mode=production && pm2 start"
     },
     dependencies: {
-        creamie: "latest"
+        creamie: "latest",
+        pm2: "latest"
     },
     devDependencies: {}
 }

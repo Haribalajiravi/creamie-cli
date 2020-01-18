@@ -1,10 +1,8 @@
-const process = require('child_process');
 const fs = require('fs');
 const package = require('./project/package');
 const copy = require('./../utils/copy');
 
 const Reset = "\x1b[0m";
-const Blink = "\x1b[5m";
 const FgRed = "\x1b[31m";
 const FgGreen = "\x1b[32m";
 const FgYellow = "\x1b[33m";
