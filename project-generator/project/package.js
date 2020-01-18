@@ -3,9 +3,9 @@ var devPackage = {
     version: "0.0.0",
     private: true,
     scripts: {
-        build: "webpack --mode=development",
+        build: "creamie-watch -i && webpack --mode=development",
         development: "webpack-dev-server",
-        start: "webpack --mode=production && pm2 start"
+        start: "creamie-watch -i && webpack --mode=production && pm2 start"
     },
     dependencies: {
         creamie: "latest",
