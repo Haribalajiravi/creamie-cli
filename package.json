@@ -4,7 +4,7 @@
     "description": "A Javascript Framework with Web Component Life Cycles, Bindings, Routing and Image rendering etc...",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha"
     },
     "keywords": [
         "creamie-cli",
