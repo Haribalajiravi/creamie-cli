@@ -1,11 +1,8 @@
----
-
-
----
-
-<h1 id="welcome-to-creamie-cli">Welcome to Creamie CLI!</h1>
+<p align="center">
 <p><img src="https://raw.githubusercontent.com/Haribalajiravi/creamie-cli/master/project-generator/creamie-project/src/assets/cream.png" alt="enter image description here" width="200"></p>
+<h1 id="welcome-to-creamie-cli">Creamie CLI!</h1>
 <p><a href="https://travis-ci.org/Haribalajiravi/creamie-cli"><img src="https://travis-ci.org/Haribalajiravi/creamie-cli.svg?branch=master" alt="Build Status"></a></p>
+</p>
 <p><strong>Installation</strong></p>
 <pre><code>npm install -g creamie-cli
 </code></pre>
