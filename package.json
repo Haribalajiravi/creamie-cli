@@ -24,5 +24,8 @@
     "author": "Haribalaji R (haribalajiravi@gmail.com)",
     "license": "MIT",
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^7.0.0"
+    }
 }
