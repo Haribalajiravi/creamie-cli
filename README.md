@@ -22,10 +22,10 @@ You can also use '-r' option to create a new component over already existing com
 > Note: Above command will replace your component with same name which means your old code will be deleted!
 
 ## Application serving
-
+Your application is filled with webpack fuel which run your expensive
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNzA4MDU4LC00MjExMDY0NzAsLTEyMz
+eyJoaXN0b3J5IjpbMjMxNjUxMzI2LC00MjExMDY0NzAsLTEyMz
 cxNzE4ODgsLTk0NjkwMTU3MSwtNzgwOTIxOTMwLDgwNDg4OTI2
 NiwtMTMxNTU0NzEyNywtNzI2MzE0Mzg2LC03MjQxOTM5MDgsLT
 Q1OTE0MTAxNl19
