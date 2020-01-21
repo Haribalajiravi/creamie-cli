@@ -13,6 +13,8 @@ By smashing the below command will generate a new creamie project where you can 
 
     creamie create <app-name>
 
+Don't forget to `cd <app-name>/`
+Follow CLI logs t
 When you have super control of creamie project why you need to create components manually, use below command
 
     creamie component <component-name>
@@ -45,8 +47,8 @@ Change the configuration based on your requirements in `ecosystem.config.js` *[l
 (c) 2020, Haribalaji Raviprakash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2NDI4MTgxLC02MjMzMTY5ODAsLTQyMT
-EwNjQ3MCwtMTIzNzE3MTg4OCwtOTQ2OTAxNTcxLC03ODA5MjE5
-MzAsODA0ODg5MjY2LC0xMzE1NTQ3MTI3LC03MjYzMTQzODYsLT
-cyNDE5MzkwOCwtNDU5MTQxMDE2XX0=
+eyJoaXN0b3J5IjpbODgxMzQ3NzM0LDc2NjQyODE4MSwtNjIzMz
+E2OTgwLC00MjExMDY0NzAsLTEyMzcxNzE4ODgsLTk0NjkwMTU3
+MSwtNzgwOTIxOTMwLDgwNDg4OTI2NiwtMTMxNTU0NzEyNywtNz
+I2MzE0Mzg2LC03MjQxOTM5MDgsLTQ1OTE0MTAxNl19
 -->
