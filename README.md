@@ -8,11 +8,13 @@ Installing the below command will give you superpowers🔥 to control creamie pr
     npm install -g creamie-cli
 
 ## Get Started!
-By smashing the below command will 
+By smashing the below command will generate a new creamie project where you can build your front-end palace.
 
+    creamie create <app-name>
 
+When 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mjc5MjgyMywtOTQ2OTAxNTcxLC03OD
-A5MjE5MzAsODA0ODg5MjY2LC0xMzE1NTQ3MTI3LC03MjYzMTQz
-ODYsLTcyNDE5MzkwOCwtNDU5MTQxMDE2XX0=
+eyJoaXN0b3J5IjpbLTE2OTE1MTc3MjcsLTk0NjkwMTU3MSwtNz
+gwOTIxOTMwLDgwNDg4OTI2NiwtMTMxNTU0NzEyNywtNzI2MzE0
+Mzg2LC03MjQxOTM5MDgsLTQ1OTE0MTAxNl19
 -->
