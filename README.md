@@ -41,10 +41,11 @@ Your production launch will be taking care by **[pm2](https://pm2.keymetrics.io/
 Change the configuration based on your requirements in `ecosystem.config.js` *[look out>>](https://pm2.keymetrics.io/docs/usage/application-declaration/#javascript-format)*
 
 ## Copyrights
+(c) 2020, Haribalaji Raviprakash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkzODMzOTAsLTYyMzMxNjk4MCwtND
-IxMTA2NDcwLC0xMjM3MTcxODg4LC05NDY5MDE1NzEsLTc4MDky
-MTkzMCw4MDQ4ODkyNjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4Ni
-wtNzI0MTkzOTA4LC00NTkxNDEwMTZdfQ==
+eyJoaXN0b3J5IjpbMjU4MDg4MDAzLC02MjMzMTY5ODAsLTQyMT
+EwNjQ3MCwtMTIzNzE3MTg4OCwtOTQ2OTAxNTcxLC03ODA5MjE5
+MzAsODA0ODg5MjY2LC0xMzE1NTQ3MTI3LC03MjYzMTQzODYsLT
+cyNDE5MzkwOCwtNDU5MTQxMDE2XX0=
 -->
