@@ -21,10 +21,12 @@ You can also use '-r' option to create a new component over already existing com
 
 > Note: Above command will replace your component with same name which means your old code will be deleted!
 
+## Application serving
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTEwNjQ3MCwtMTIzNzE3MTg4OCwtOT
-Q2OTAxNTcxLC03ODA5MjE5MzAsODA0ODg5MjY2LC0xMzE1NTQ3
-MTI3LC03MjYzMTQzODYsLTcyNDE5MzkwOCwtNDU5MTQxMDE2XX
-0=
+eyJoaXN0b3J5IjpbMzQwNzA4MDU4LC00MjExMDY0NzAsLTEyMz
+cxNzE4ODgsLTk0NjkwMTU3MSwtNzgwOTIxOTMwLDgwNDg4OTI2
+NiwtMTMxNTU0NzEyNywtNzI2MzE0Mzg2LC03MjQxOTM5MDgsLT
+Q1OTE0MTAxNl19
 -->
