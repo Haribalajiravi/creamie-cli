@@ -34,8 +34,10 @@ To generate compressed pack of web bundle.
 Your compressed web bundle will hides in 'dist/' folder
 ## Deployment
 When you are finished with your development and your product is ready to rock-n-roll move application to your respective server.
+Use `npm install` , so you'll never disappoint at your first deployment.
+Once 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA2MzI1NTIsLTQyMTEwNjQ3MCwtMT
+eyJoaXN0b3J5IjpbLTE0MjE3NTYyODAsLTQyMTEwNjQ3MCwtMT
 IzNzE3MTg4OCwtOTQ2OTAxNTcxLC03ODA5MjE5MzAsODA0ODg5
 MjY2LC0xMzE1NTQ3MTI3LC03MjYzMTQzODYsLTcyNDE5MzkwOC
 wtNDU5MTQxMDE2XX0=
