@@ -24,10 +24,12 @@ You can also use '-r' option to create a new component over already existing com
 ## Application serving
 Your application is filled with webpack fuel which will launch your rocket (application updates) towards the space (Browser). 
 
+    npm run development
+Whenever you have changes in your code. You don't need to save there and refresh your browser again. Webpack will do it 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NDM2MzkwLC00MjExMDY0NzAsLTEyMz
-cxNzE4ODgsLTk0NjkwMTU3MSwtNzgwOTIxOTMwLDgwNDg4OTI2
-NiwtMTMxNTU0NzEyNywtNzI2MzE0Mzg2LC03MjQxOTM5MDgsLT
-Q1OTE0MTAxNl19
+eyJoaXN0b3J5IjpbMTM1MzU5MDQ3OSwtNDIxMTA2NDcwLC0xMj
+M3MTcxODg4LC05NDY5MDE1NzEsLTc4MDkyMTkzMCw4MDQ4ODky
+NjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4NiwtNzI0MTkzOTA4LC
+00NTkxNDEwMTZdfQ==
 -->
