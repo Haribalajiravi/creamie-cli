@@ -37,10 +37,11 @@ Your compressed web bundle will hides in 'dist/' folder
 When you are finished with your development and your product is ready to rock-n-roll move application to your respective server.
 Use `npm install` , so you'll never disappoint at your first deployment.
 Once everything is set to go, `npm start` will start its deployment work.
-Your production launch will be taking care by **pm2** 
+Your production launch will be taking care by **[pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)**
+Change the configuration based on your requirements in ecosystem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTAxNTQ4MzgsLTYyMzMxNjk4MCwtND
-IxMTA2NDcwLC0xMjM3MTcxODg4LC05NDY5MDE1NzEsLTc4MDky
-MTkzMCw4MDQ4ODkyNjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4Ni
-wtNzI0MTkzOTA4LC00NTkxNDEwMTZdfQ==
+eyJoaXN0b3J5IjpbMTYxNzY3Nzk2MiwtNjIzMzE2OTgwLC00Mj
+ExMDY0NzAsLTEyMzcxNzE4ODgsLTk0NjkwMTU3MSwtNzgwOTIx
+OTMwLDgwNDg4OTI2NiwtMTMxNTU0NzEyNywtNzI2MzE0Mzg2LC
+03MjQxOTM5MDgsLTQ1OTE0MTAxNl19
 -->
