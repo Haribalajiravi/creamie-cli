@@ -14,3 +14,6 @@ Project creation:</p>
 <pre><code>creamie component &lt;component-name&gt;
 </code></pre>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ1OTE0MTAxNl19
+-->
