@@ -4,11 +4,15 @@
 
 ## Installation
 Installing the below command will allows you to create creamie project boilerplate. You can make use of that to proceed with your frontend part.
-		npm 
+
+    npm install -g creamie-cli
+
+## Usage
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzEzNjczNCwtNzgwOTIxOTMwLDgwND
-g4OTI2NiwtMTMxNTU0NzEyNywtNzI2MzE0Mzg2LC03MjQxOTM5
-MDgsLTQ1OTE0MTAxNl19
+eyJoaXN0b3J5IjpbLTE0MTQzMTk0NjMsLTc4MDkyMTkzMCw4MD
+Q4ODkyNjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4NiwtNzI0MTkz
+OTA4LC00NTkxNDEwMTZdfQ==
 -->
