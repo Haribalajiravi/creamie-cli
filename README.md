@@ -33,10 +33,10 @@ To generate compressed pack of web bundle.
 
 Your compressed web bundle will hides in 'dist/' folder
 ## Deployment
-When you are finished with your development and your product is ready to rock-n-roll move your pr
+When you are finished with your development and your product is ready to rock-n-roll move application to your respective server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk4ODkwNCwtNDIxMTA2NDcwLC0xMj
-M3MTcxODg4LC05NDY5MDE1NzEsLTc4MDkyMTkzMCw4MDQ4ODky
-NjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4NiwtNzI0MTkzOTA4LC
-00NTkxNDEwMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDA2MzI1NTIsLTQyMTEwNjQ3MCwtMT
+IzNzE3MTg4OCwtOTQ2OTAxNTcxLC03ODA5MjE5MzAsODA0ODg5
+MjY2LC0xMzE1NTQ3MTI3LC03MjYzMTQzODYsLTcyNDE5MzkwOC
+wtNDU5MTQxMDE2XX0=
 -->
