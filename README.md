@@ -19,10 +19,11 @@ You can also use '-r' option to create a new component over already existing com
 
     creamie component <component-name> -r
 
-> Note: Above command will replace your component with same name
+> Note: Above command will replace your component with same name which means your old code will be deleted!
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTcyMzg4MywtMTIzNzE3MTg4OCwtOT
+eyJoaXN0b3J5IjpbLTQyMTEwNjQ3MCwtMTIzNzE3MTg4OCwtOT
 Q2OTAxNTcxLC03ODA5MjE5MzAsODA0ODg5MjY2LC0xMzE1NTQ3
 MTI3LC03MjYzMTQzODYsLTcyNDE5MzkwOCwtNDU5MTQxMDE2XX
 0=
