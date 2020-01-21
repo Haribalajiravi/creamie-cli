@@ -17,11 +17,13 @@ When you have super control of creamie project why you need to create components
     creamie component <component-name>
 You can also use '-r' option to create a new component over already existing component with same name.
 
-    creamie component <compone>
+    creamie component <component-name> -r
+
+> Note: Above command will replace your component with same name
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwMTMxODY5LC0xMjM3MTcxODg4LC05ND
-Y5MDE1NzEsLTc4MDkyMTkzMCw4MDQ4ODkyNjYsLTEzMTU1NDcx
-MjcsLTcyNjMxNDM4NiwtNzI0MTkzOTA4LC00NTkxNDEwMTZdfQ
-==
+eyJoaXN0b3J5IjpbMTEyOTcyMzg4MywtMTIzNzE3MTg4OCwtOT
+Q2OTAxNTcxLC03ODA5MjE5MzAsODA0ODg5MjY2LC0xMzE1NTQ3
+MTI3LC03MjYzMTQzODYsLTcyNDE5MzkwOCwtNDU5MTQxMDE2XX
+0=
 -->
