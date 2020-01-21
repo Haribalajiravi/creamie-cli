@@ -32,14 +32,14 @@ To generate compressed pack of web bundle.
     npm run build
 
 Your compressed web bundle will hides in 'dist/' folder
-New for webpack ? 
+*New for webpack ? [look out>>](https://webpack.js.org/concepts/configuration/)*
 ## Deployment
 When you are finished with your development and your product is ready to rock-n-roll move application to your respective server.
 Use `npm install` , so you'll never disappoint at your first deployment.
 Once everything is set to go, `npm start` will start its deployment work.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzMxNjk4MCwtNDIxMTA2NDcwLC0xMj
-M3MTcxODg4LC05NDY5MDE1NzEsLTc4MDkyMTkzMCw4MDQ4ODky
-NjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4NiwtNzI0MTkzOTA4LC
-00NTkxNDEwMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MDIwNzk3NDksLTYyMzMxNjk4MCwtND
+IxMTA2NDcwLC0xMjM3MTcxODg4LC05NDY5MDE1NzEsLTc4MDky
+MTkzMCw4MDQ4ODkyNjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4Ni
+wtNzI0MTkzOTA4LC00NTkxNDEwMTZdfQ==
 -->
