@@ -8,11 +8,11 @@ Installing the below command will allows you to create creamie project boilerpla
     npm install -g creamie-cli
 
 ## Usage
-
+### Project generation
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQzMTk0NjMsLTc4MDkyMTkzMCw4MD
-Q4ODkyNjYsLTEzMTU1NDcxMjcsLTcyNjMxNDM4NiwtNzI0MTkz
-OTA4LC00NTkxNDEwMTZdfQ==
+eyJoaXN0b3J5IjpbLTk0NjkwMTU3MSwtNzgwOTIxOTMwLDgwND
+g4OTI2NiwtMTMxNTU0NzEyNywtNzI2MzE0Mzg2LC03MjQxOTM5
+MDgsLTQ1OTE0MTAxNl19
 -->
