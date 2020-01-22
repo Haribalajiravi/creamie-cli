@@ -13,7 +13,7 @@ By smashing the below command will generate a new creamie project where you can 
 
     creamie create <app-name>
 
-Don't forget to `cd <app-name>/`
+Don't forget to `cd <app-name>/`.
 Follow CLI logs to get a clear picture of what to do!
 
 When you have super control of creamie project why you need to create components manually, use below command
@@ -35,14 +35,17 @@ To generate compressed pack of web bundle.
 
     npm run build
 
-Your compressed web bundle will hides in 'dist/' folder
+Your compressed web bundle will hides in 'dist/' folder.
+
 *New for webpack ? [look out>>](https://webpack.js.org/concepts/configuration/)*
 ## Deployment
 When you are finished with your development and your product is ready to rock-n-roll move application to your respective server.
 Use `npm install` , so you'll never disappoint at your first deployment.
 Once everything is set to go, `npm start` will start its deployment work.
-Your production launch will be taking care by **[pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)**
-Change the configuration based on your requirements in `ecosystem.config.js` *[look out>>](https://pm2.keymetrics.io/docs/usage/application-declaration/#javascript-format)*
+Your production launch will be taking care by **[pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)**.
+Change the configuration based on your requirements in `ecosystem.config.js`.
+
+*[look out>>](https://pm2.keymetrics.io/docs/usage/application-declaration/#javascript-format)*
 
 ## Copyrights
 (c) 2020, Haribalaji Raviprakash
