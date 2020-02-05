@@ -4,6 +4,9 @@ const fs = require('fs');
  * Common util methods for testcases
  */
 const Utilities = {
+    /**
+     * Project generator utils
+     */
     baseTestFolder: 'test/test_junks',
     projectName: 'MyTestApp',
     isFileOrFolderExist: (path, callback) => {
@@ -11,6 +14,9 @@ const Utilities = {
             callback(exists);
         });
     },
+    /**
+     * Components generator utils
+     */
     componentName: 'task',
     createFolder: () => {
         let dir = `./${Utilities.baseTestFolder}/${Utilities.projectName}/src/${Utilities.componentName}`;
