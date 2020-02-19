@@ -18,10 +18,16 @@ const componentGenerator = (name, option) => {
      * Import components to index.js
      */
     let path = `./${name}/${name}-component`;
-    fs.appendFile('src/index.js', `\r\nimport ${Utils.capitalize(name)} from '${path}'`, function(err) {
+
+    fs.readFile('src/index.js', function (err, data) {
         if (err) throw err;
-        console.log(`index.js modified!`);
-        console.log(`${path} imported!`);
+        if (!data.includes(Utils.capitalize(name)) && !data.includes(path)) {
+            fs.appendFile('src/index.js', `\r\nimport ${Utils.capitalize(name)} from '${path}';`, function (err) {
+                if (err) throw err;
+                console.log(`index.js modified!`);
+                console.log(`${path} imported!`);
+            });
+        }
     });
 }
 

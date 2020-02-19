@@ -53,8 +53,19 @@ describe('Component generation', () => {
         });
     });
 
+    it('Check if index.js has duplicate imports.', () => {
+        try {
+            let path = 'src/index.js';
+            if (!Utilities.hasEjsImportDuplicates(path)) {
+                throw `Duplicate imports found! in '${path}'`;
+            }
+        } catch (err) {
+            throw err;
+        }
+    });
+
     after(() => {
         /* Flushing all junk data before testcase */
-        rimraf(`./${Utilities.baseTestFolder}`, function() { console.log(`\tAll the testing junks removed! \n\tTesting done. \n`); });
+        rimraf(`./${Utilities.baseTestFolder}`, function () { console.log(`\tAll the testing junks removed! \n\tTesting done. \n`); });
     });
 });

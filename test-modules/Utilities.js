@@ -44,6 +44,9 @@ const Utilities = {
                 }
             });
         }
+    },
+    hasEjsImportDuplicates: (path) => {
+        fs.readFileSync(`./${Utilities.baseTestFolder}/${Utilities.projectName}/${path}`)
     }
 }
 
