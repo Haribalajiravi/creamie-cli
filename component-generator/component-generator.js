@@ -1,21 +1,22 @@
 const fs = require('fs');
 
 class ComponentGenerator {
-    constructor(name, option, fileObjArr) {
+    constructor(name, option, fileObjArr, path) {
         this.name = name;
         this.fileObjArr = fileObjArr;
         this.option = option;
+        this.path = (path) ? path : `./src/${this.name}`;
     }
 
     createFolder() {
-        let dir = `./src/${this.name}`;
+        let dir = this.path;
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir);
         }
     }
 
     createFile(fileObject) {
-        let path = `./src/${this.name}/${fileObject.filename}`;
+        let path = `${this.path}/${fileObject.filename}`;
         let _this = this;
         if (_this.option != '-r' && fs.existsSync(path)) {
             console.log(`${path} already exists!`);
