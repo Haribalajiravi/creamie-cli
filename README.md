@@ -1,7 +1,10 @@
 ![creamie](https://raw.githubusercontent.com/Haribalajiravi/creamie-cli/master/creamie-title.jpg)
 
-
 [![Build Status](https://travis-ci.org/Haribalajiravi/creamie-cli.svg?branch=master)](https://travis-ci.org/Haribalajiravi/creamie-cli) [![GitHub issues](https://img.shields.io/github/issues/Haribalajiravi/creamie-cli)](https://github.com/Haribalajiravi/creamie-cli/issues) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Download](https://img.shields.io/npm/dt/creamie-cli.svg)](https://npmcharts.com/compare/creamie-cli?minimal=true) [![version](https://img.shields.io/npm/v/creamie-cli.svg)](https://www.npmjs.com/package/creamie-cli) [![Gitter](https://badges.gitter.im/creamie-cli/community.svg)](https://gitter.im/creamie-cli/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+If you find this framework more useful
+
+[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/7xcFqmn)
 
 ## Installation
 Installing the below command will give you superpowers🔥 to control creamie project.
@@ -50,6 +53,10 @@ Change the configuration based on your requirements in `ecosystem.config.js`.
 ## For more updates check out official docs below
 
 **[https://creamie.now.sh](https://creamie.now.sh/)**
+
+## Contributors
+- [HBR](https://twitter.com/haribalaji_o_0)
+- [Ahilesh](https://twitter.com/KumarAhilesh)
 
 ## Copyrights
 (c) 2020, Haribalaji Raviprakash
