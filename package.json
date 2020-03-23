@@ -1,6 +1,6 @@
 {
     "name": "creamie-cli",
-    "version": "0.0.11",
+    "version": "1.0.0",
     "description": "A Javascript Framework with Web Component Life Cycles, Bindings, Routing and Image rendering etc...",
     "main": "index.js",
     "scripts": {
