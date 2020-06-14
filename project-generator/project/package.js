@@ -1,6 +1,6 @@
 var devPackage = {
     name: "creamie-project",
-    version: "0.0.0",
+    version: "0.0.1",
     private: true,
     scripts: {
         build: "creamie-watch -i && webpack --mode=development",
@@ -8,7 +8,7 @@ var devPackage = {
         start: "creamie-watch -i && webpack --mode=production && pm2 start"
     },
     dependencies: {
-        creamie: "latest",
+        '@creamie/core' : "latest",
         pm2: "latest"
     },
     devDependencies: {}
