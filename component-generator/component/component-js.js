@@ -5,7 +5,7 @@ var JS = {
         let capName = Utils.capitalize(name);
         return {
             filename: `${name}-component.js`,
-            content: `import Creamie from 'creamie';
+            content: `import Creamie from '@creamie/core';
 import ${capName}Config from './${name}-config';
 export default class ${capName} extends Creamie {
     constructor() { 
