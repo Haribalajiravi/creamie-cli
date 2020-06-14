@@ -11,7 +11,7 @@ If you find this framework more useful
 ## Installation
 Installing the below command will give you superpowers🔥 to control creamie project.
 
-    npm install -g creamie-cli
+    npm install -g @creamie/cli
 
 ## Get Started!
 By smashing the below command will generate a new creamie project where you can build your front-end palace.
@@ -54,7 +54,7 @@ Change the configuration based on your requirements in `ecosystem.config.js`.
 
 ## For more updates check out official docs below
 
-**[https://creamie.now.sh](https://creamie.now.sh/)**
+**[https://creamie.io](https://creamie.io/)**
 
 ## Contributors
 - [HBR](https://twitter.com/haribalaji_o_0)
@@ -66,10 +66,3 @@ Change the configuration based on your requirements in `ecosystem.config.js`.
 ## Copyrights
 (c) 2020, Haribalaji Raviprakash
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDg4NzY1MSwxODg1MTk3OTMsNzY2ND
-I4MTgxLC02MjMzMTY5ODAsLTQyMTEwNjQ3MCwtMTIzNzE3MTg4
-OCwtOTQ2OTAxNTcxLC03ODA5MjE5MzAsODA0ODg5MjY2LC0xMz
-E1NTQ3MTI3LC03MjYzMTQzODYsLTcyNDE5MzkwOCwtNDU5MTQx
-MDE2XX0=
--->

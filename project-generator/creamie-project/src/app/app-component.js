@@ -1,4 +1,4 @@
-import Creamie from 'creamie';
+import Creamie from '@creamie/core';
 import AppConfig from './app-config';
 
 export default class App extends Creamie {
