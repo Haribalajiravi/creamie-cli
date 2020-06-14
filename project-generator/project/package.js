@@ -1,6 +1,6 @@
 var devPackage = {
     name: "creamie-project",
-    version: "0.0.1",
+    version: "0.0.0",
     private: true,
     scripts: {
         build: "creamie-watch -i && webpack --mode=development",
