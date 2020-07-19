@@ -1,42 +1,47 @@
 {
-    "name": "@creamie/cli",
-    "version": "0.0.3",
-    "description": "It is a CLI for Creamie Frontend Framework",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm test",
-            "pre-push": "npm test"
-          }
-    },
-    "keywords": [
-        "creamie-cli",
-        "creamie cli",
-        "creamie",
-        "js-framework",
-        "framework",
-        "javascript",
-        "frontend",
-        "routing",
-        "components",
-        "binding"
-    ],
-    "bin": {
-        "creamie": "index.js"
-    },
-    "author": "Haribalaji R (haribalajiravi@gmail.com)",
-    "license": "MIT",
-    "dependencies": {},
-    "devDependencies": {
-        "chai": "^4.2.0",
-        "husky": "^4.2.5",
-        "mocha": "^7.0.0",
-        "rimraf": "^3.0.0"
-    },
-    "publishConfig": {
-        "access": "public"
+  "name": "@creamie/cli",
+  "version": "0.0.3",
+  "description": "It is a CLI for Creamie Frontend Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test"
     }
+  },
+  "keywords": [
+    "creamie-cli",
+    "creamie cli",
+    "creamie",
+    "js-framework",
+    "framework",
+    "javascript",
+    "frontend",
+    "routing",
+    "components",
+    "binding"
+  ],
+  "bin": {
+    "creamie": "index.js"
+  },
+  "author": "Haribalaji R (haribalajiravi@gmail.com)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "mocha": "^7.0.0",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,18 +1,19 @@
 var devPackage = {
-    name: "creamie-project",
-    version: "0.0.0",
-    private: true,
-    scripts: {
-        build: "creamie-watch -i && webpack --mode=development",
-        development: "webpack-dev-server",
-        start: "creamie-watch -i && webpack --mode=production && pm2 start"
-    },
-    dependencies: {
-        '@creamie/core' : "latest",
-        pm2: "latest"
-    },
-    devDependencies: {}
-}
+  name: 'creamie-project',
+  version: '0.0.0',
+  private: true,
+  scripts: {
+    build: 'creamie-watch -i && webpack --mode=development',
+    development: 'webpack-dev-server',
+    start:
+      'creamie-watch -i && webpack --mode=production && pm2 start',
+  },
+  dependencies: {
+    '@creamie/core': 'latest',
+    pm2: 'latest',
+  },
+  devDependencies: {},
+};
 
 devPackage.devDependencies['@creamie/watcher'] = 'latest';
 devPackage.devDependencies['express'] = '^4.17.1';
