@@ -6,6 +6,12 @@
     "scripts": {
         "test": "mocha"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm test",
+            "pre-push": "npm test"
+          }
+    },
     "keywords": [
         "creamie-cli",
         "creamie cli",
@@ -23,12 +29,6 @@
     },
     "author": "Haribalaji R (haribalajiravi@gmail.com)",
     "license": "MIT",
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm test",
-            "pre-push": "npm test"
-          }
-    },
     "dependencies": {},
     "devDependencies": {
         "chai": "^4.2.0",
