@@ -23,9 +23,16 @@
     },
     "author": "Haribalaji R (haribalajiravi@gmail.com)",
     "license": "MIT",
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm test",
+            "pre-push": "npm test"
+          }
+    },
     "dependencies": {},
     "devDependencies": {
         "chai": "^4.2.0",
+        "husky": "^4.2.5",
         "mocha": "^7.0.0",
         "rimraf": "^3.0.0"
     },
