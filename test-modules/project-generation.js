@@ -1,9 +1,15 @@
+/* eslint-disable no-undef */
 const fs = require('fs');
 const Utilities = require('./Utilities');
 /**
  * Project generation imports
  */
-const package = require('../project-generator/project/package');
+const {
+  package,
+  dependencies,
+  devDependencies,
+  getLatestVersion,
+} = require('../project-generator/project/package');
 const copy = require('../utils/copy');
 
 /**
@@ -20,7 +26,7 @@ describe('Project generation', () => {
   /**
    * Checking wheather any errors occurs while generating project
    */
-  it('Project creation with no exceptions.', () => {
+  it('Project creation with no exceptions.', async () => {
     copy(
       './project-generator/creamie-project',
       `./${Utilities.baseTestFolder}`
@@ -36,6 +42,8 @@ describe('Project generation', () => {
       }
     );
     package.name = Utilities.projectName;
+    package.dependencies = await getLatestVersion(dependencies);
+    package.devDependencies = await getLatestVersion(devDependencies);
     fs.writeFile(
       `./${Utilities.baseTestFolder}/${Utilities.projectName}/package.json`,
       JSON.stringify(package, null, 4),
@@ -45,7 +53,7 @@ describe('Project generation', () => {
         }
       }
     );
-  });
+  }).timeout(3000);
 
   /**
    * Checking all the files of project are properly created

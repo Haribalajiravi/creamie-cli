@@ -1,3 +1,5 @@
+/* eslint-disable no-useless-catch */
+/* eslint-disable no-undef */
 const rimraf = require('rimraf');
 const Utilities = require('./Utilities');
 const ComponentGenerator = require('./../component-generator/index');

@@ -30,16 +30,18 @@
   },
   "author": "Haribalaji R (haribalajiravi@gmail.com)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "latest-version": "^5.1.0"
+  },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "mocha": "^8.1.1",
-    "prettier": "^2.0.5",
-    "rimraf": "^3.0.0"
+    "chai": "^4.3.4",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^4.3.8",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2"
   },
   "publishConfig": {
     "access": "public"

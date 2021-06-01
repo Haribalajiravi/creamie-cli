@@ -4,8 +4,8 @@ let action = process.argv[2];
 let name = process.argv[3];
 let option = process.argv[4];
 
-const project = require('./project-generator/index');
-const component = require('./component-generator/index');
+const project = require('./project-generator');
+const component = require('./component-generator');
 
 const help = () => {
   console.log(
