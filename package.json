@@ -31,7 +31,7 @@
   "author": "Haribalaji R (haribalajiravi@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "latest-version": "^5.1.0"
+    "latest-version": "^7.0.0"
   },
   "devDependencies": {
     "chai": "^4.3.4",
