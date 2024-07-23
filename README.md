@@ -61,7 +61,7 @@ Change the configuration based on your requirements in `ecosystem.config.js`.
 
 ## For more updates check out official docs below
 
-**[https://creamie.io](https://creamie.io/)**
+**[https://creamie.io](https://creamie.vercel.app/)**
 
 ## Contributors
 
