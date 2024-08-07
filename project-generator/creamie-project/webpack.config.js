@@ -1,22 +1,30 @@
-const path = require('path');
-const HtmlWebPackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const CreamieWatcher = require('@creamie/watcher');
+const Path = require("path");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const CreamieWatcher = require("@creamie/watcher");
 
 module.exports = {
   module: {
     rules: [
       {
         test: /\.js$/,
-        exclude: path.resolve(__dirname, 'node_modules'),
-        loaders: ['babel-loader'],
+        exclude: Path.resolve(__dirname, "node_modules"),
+        rules: [
+          {
+            use: [
+              {
+                loader: "babel-loader",
+              },
+            ],
+          },
+        ],
       },
       {
         test: /\.html$/,
         use: [
           {
-            loader: 'html-loader',
+            loader: "html-loader",
             options: {
               minimize: true,
             },
@@ -27,40 +35,43 @@ module.exports = {
         test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: "url-loader",
             options: {
               limit: 8000, // Convert images < 8kb to base64 strings
-              name: 'assets/[name].[ext]',
+              name: "assets/[name].[ext]",
             },
           },
         ],
       },
       {
         test: /\.(css|scss)$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './src/index.html',
-      filename: './index.html',
+      template: "./src/index.html",
+      filename: "./index.html",
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css',
+      filename: "[name].css",
+      chunkFilename: "[id].css",
     }),
-    new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }]),
+    new CopyWebpackPlugin({
+      patterns: [{ from: Path.resolve(__dirname, "src/assets"), to: "assets" }],
+    }),
   ],
+  mode: process.env.NODE_ENV == "production" ? "production" : "development",
   output: {
-    publicPath: '/',
+    publicPath: "/",
   },
   devServer: {
     port: 8080,
-    contentBase: './src/**/*',
+    static: "./src/**/*",
+    compress: true,
     historyApiFallback: true,
-    watchContentBase: true,
-    before: function () {
+    onListening: function () {
       CreamieWatcher.watch();
     },
   },
